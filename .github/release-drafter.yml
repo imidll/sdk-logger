@@ -17,13 +17,12 @@ categories:
     labels:
       - '☢️ Bug'
 
-  - title: '⚡ Performance'
+  - title: '🚀 Updates'
     labels:
-      - '⚡ Performance'
-
-  - title: '🔄 Refactor'
-    labels:
+      - '⚡️ Performance'
+      - '🧹 Updates'
       - '🔄 Refactor'
+      - '🤖 Dependencies'
 
   - title: '📚 Documentation'
     labels:
@@ -31,13 +30,11 @@ categories:
 
   - title: '🔧 Maintenance'
     labels:
-      - '🧹 Updates'
-      - '🤖 Dependencies'
       - '🔍 Testing'
       - '📊 Analytics'
-      - '🌍 Internationalization'
       - '🛡️ Infrastructure'
       - '📚 Library'
+      - '🌍 Internationalization'
 
 change-title-escapes: '\<*_&'
 exclude-contributors:
@@ -54,7 +51,12 @@ version-resolver:
       - '✏️ Feature'
   patch:
     labels:
+      - '📒 Documentation'
       - '☢️ Bug'
+      - '⚡️ Performance'
+      - '🧹 Updates'
+      - '🔄 Refactor'
+      - '🤖 Dependencies'
   default: patch
 
 template: |

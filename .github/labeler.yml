@@ -3,56 +3,56 @@ version: v1
 labels:
   - label: '🔒 Security'
     matcher:
-      branch: '(?i)^(security|vuln(erability)?|secure|auth(entication)?|encrypt(ion)?)/.*'
+      title: '^(security|vuln(erability)?|secure|auth(entication)?|encrypt(ion)?): .*'
 
-  - label: '⚡ Performance'
+  - label: '⚡️ Performance'
     matcher:
-      branch: '(?i)^(perf(ormance)?|optimize|speed|cache)/.*'
+      title: '^(perf(ormance)?|optimize|speed|cache): .*'
 
   - label: '🔄 Refactor'
     matcher:
-      branch: '(?i)^(refactor|restruct(ure)?|cleanup|rewrite)/.*'
+      title: '^(refactor|restruct(ure)?|cleanup|rewrite): .*'
 
   - label: '🚀 Release'
     matcher:
-      branch: '(?i)^(release|version|deploy|publish)/.*'
+      title: '^(release|version|deploy|publish): .*'
 
   - label: '📒 Documentation'
     matcher:
-      branch: '(?i)^(docs?|doc(umentation)?|readme)/.*'
+      title: '^(docs?|doc(umentation)?|readme): .*'
 
   - label: '☢️ Bug'
     matcher:
-      branch: '(?i)^(bug|fix(es)?|hotfix|race|missing|correct)/.*'
+      title: '^(bug|fix(es)?|hotfix|race|missing|correct): .*'
         
   - label: '🧹 Updates'
     matcher:
-      branch: '(?i)^(update|improve|chore|deprecated|remove|unused)/.*'
+      title: '^(update|improve|chore|deprecated|remove|unused): .*'
         
   - label: '🤖 Dependencies'
     matcher:
-      branch: '(?i)^(dep(s)?|dependenc(y|ies)|bump)/.*'
+      title: '^(dep(s)?|dependenc(y|ies)|bump): .*'
         
   - label: '✏️ Feature'
     matcher:
-      branch: '(?i)^(feat(ure)?|add|create|impl(ement)?)/.*'
+      title: '^(feat(ure)?|add|create|impl(ement)?): .*'
         
   - label: '🔍 Testing'
     matcher:
-      branch: '(?i)^(test(ing)?|unit|integration|e2e|coverage)/.*'
+      title: '^(test(ing)?|unit|integration|e2e|coverage): .*'
         
   - label: '📊 Analytics'
     matcher:
-      branch: '(?i)^(analytics|metrics|logs|monitor|track)/.*'
+      title: '^(analytics|metrics|logs|monitor|track): .*'
         
   - label: '🌍 Internationalization'
     matcher:
-      branch: '(?i)^(i18n|l10n|international|translate|locale|lang)/.*'
+      title: '^(i18n|l10n|international|translate|locale|lang): .*'
         
   - label: '🛡️ Infrastructure'
     matcher:
-      branch: '(?i)^(infra(structure)?|ci|cd|docker|deploy|setup)/.*'
+      title: '^(infra(structure)?|ci|cd|docker|deploy|setup): .*'
         
   - label: '📚 Library'
     matcher:
-      branch: '(?i)^(lib(rary)?|module|package|export|import)/.*'
+      title: '^(lib(rary)?|module|package|export|import): .*'
