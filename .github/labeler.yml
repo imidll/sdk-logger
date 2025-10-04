@@ -1,0 +1,58 @@
+version: v1
+
+labels:
+  - label: '🔒 Security'
+    matcher:
+      title: '^(security|vuln(erability)?|secure|auth(entication)?|encrypt(ion)?): .*'
+
+  - label: '⚡️ Performance'
+    matcher:
+      title: '^(perf(ormance)?|optimize|speed|cache): .*'
+
+  - label: '🔄 Refactor'
+    matcher:
+      title: '^(refactor|restruct(ure)?|cleanup|rewrite): .*'
+
+  - label: '🚀 Release'
+    matcher:
+      title: '^(release|version|deploy|publish): .*'
+
+  - label: '📒 Documentation'
+    matcher:
+      title: '^(docs?|doc(umentation)?|readme): .*'
+
+  - label: '☢️ Bug'
+    matcher:
+      title: '^(bug|fix(es)?|hotfix|race|missing|correct): .*'
+        
+  - label: '🧹 Updates'
+    matcher:
+      title: '^(update|improve|chore|deprecated|remove|unused): .*'
+        
+  - label: '🤖 Dependencies'
+    matcher:
+      title: '^(dep(s)?|dependenc(y|ies)|bump): .*'
+        
+  - label: '✏️ Feature'
+    matcher:
+      title: '^(feat(ure)?|add|create|impl(ement)?): .*'
+        
+  - label: '🔍 Testing'
+    matcher:
+      title: '^(test(ing)?|unit|integration|e2e|coverage): .*'
+        
+  - label: '📊 Analytics'
+    matcher:
+      title: '^(analytics|metrics|logs|monitor|track): .*'
+        
+  - label: '🌍 Internationalization'
+    matcher:
+      title: '^(i18n|l10n|international|translate|locale|lang): .*'
+        
+  - label: '🛡️ Infrastructure'
+    matcher:
+      title: '^(infra(structure)?|ci|cd|docker|deploy|setup): .*'
+        
+  - label: '📚 Library'
+    matcher:
+      title: '^(lib(rary)?|module|package|export|import): .*'

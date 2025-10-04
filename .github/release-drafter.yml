@@ -1,0 +1,65 @@
+name-template: '$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+
+commitish: main
+
+categories:
+  - title: '🚨 Breaking Changes'
+    labels:
+      - '🔒 Security'
+      - '🚀 Release'
+
+  - title: '✨ Features'
+    labels:
+      - '✏️ Feature'
+
+  - title: '🐛 Bug Fixes'
+    labels:
+      - '☢️ Bug'
+
+  - title: '🚀 Updates'
+    labels:
+      - '⚡️ Performance'
+      - '🧹 Updates'
+      - '🔄 Refactor'
+      - '🤖 Dependencies'
+
+  - title: '📚 Documentation'
+    labels:
+      - '📒 Documentation'
+
+  - title: '🔧 Maintenance'
+    labels:
+      - '🔍 Testing'
+      - '📊 Analytics'
+      - '🛡️ Infrastructure'
+      - '📚 Library'
+      - '🌍 Internationalization'
+
+change-title-escapes: '\<*_&'
+exclude-contributors:
+  - dependabot
+  - dependabot[bot]
+
+version-resolver:
+  major:
+    labels:
+      - '🔒 Security'
+      - '🚀 Release'
+  minor:
+    labels:
+      - '✏️ Feature'
+  patch:
+    labels:
+      - '📒 Documentation'
+      - '☢️ Bug'
+      - '⚡️ Performance'
+      - '🧹 Updates'
+      - '🔄 Refactor'
+      - '🤖 Dependencies'
+  default: patch
+
+template: |
+  $CHANGES
+
+  **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
