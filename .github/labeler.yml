@@ -41,18 +41,18 @@ labels:
     matcher:
       branch: '(?i)^(test(ing)?|unit|integration|e2e|coverage)/.*'
         
-  # - label: '📊 Analytics'
-  #   matcher:
-  #     branch: '(?i)^(analytics|metrics|logs|monitor|track)/.*'
+  - label: '📊 Analytics'
+    matcher:
+      branch: '(?i)^(analytics|metrics|logs|monitor|track)/.*'
         
-  # - label: '🌍 Internationalization'
-  #   matcher:
-  #     branch: '(?i)^(i18n|l10n|international|translate|locale|lang)/.*'
+  - label: '🌍 Internationalization'
+    matcher:
+      branch: '(?i)^(i18n|l10n|international|translate|locale|lang)/.*'
         
-  # - label: '🛡️ Infrastructure'
-  #   matcher:
-  #     branch: '(?i)^(infra(structure)?|ci|cd|docker|deploy|setup)/.*'
+  - label: '🛡️ Infrastructure'
+    matcher:
+      branch: '(?i)^(infra(structure)?|ci|cd|docker|deploy|setup)/.*'
         
-  # - label: '📚 Library'
-  #   matcher:
-  #     branch: '(?i)^(lib(rary)?|module|package|export|import)/.*'
+  - label: '📚 Library'
+    matcher:
+      branch: '(?i)^(lib(rary)?|module|package|export|import)/.*'
